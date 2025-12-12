@@ -1,0 +1,70 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Fermax Cloud",
+        "description": "Enter your Fermax Cloud credentials",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate Fermax Cloud",
+        "description": "Credentials have expired. Please enter your password again.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid credentials",
+      "cannot_connect": "Cannot connect to server",
+      "unknown": "Unknown error",
+      "already_configured": "This account is already configured"
+    },
+    "abort": {
+      "already_configured": "This account is already configured",
+      "reauth_successful": "Reauthentication successful"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Fermax Cloud Options",
+        "data": {
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "button": {
+      "open_door": {
+        "name": "Open {door_name}"
+      }
+    },
+    "sensor": {
+      "connection_state": {
+        "name": "Connection State"
+      },
+      "device_status": {
+        "name": "Device Status"
+      },
+      "device_type": {
+        "name": "Device Type"
+      },
+      "wireless_signal": {
+        "name": "WiFi Signal"
+      }
+    },
+    "binary_sensor": {
+      "connected": {
+        "name": "Connected"
+      },
+      "activated": {
+        "name": "Activated"
+      }
+    }
+  }
+}

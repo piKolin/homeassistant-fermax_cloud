@@ -1,0 +1,14 @@
+{
+    "domain": "fermax_cloud",
+    "name": "Fermax Cloud",
+    "codeowners": [
+        "@piKolin"
+    ],
+    "config_flow": true,
+    "documentation": "https://github.com/piKolin/homeassistant-fermax_cloud",
+    "issue_tracker": "https://github.com/piKolin/homeassistant-fermax_cloud/issues",
+    "requirements": [],
+    "version": "1.0.0",
+    "iot_class": "cloud_polling",
+    "loggers": ["custom_components.fermax_cloud"]
+}
