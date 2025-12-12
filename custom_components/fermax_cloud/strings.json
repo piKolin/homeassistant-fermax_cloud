@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar Fermax Cloud",
+        "description": "Introduce tus credenciales de Fermax Cloud",
+        "data": {
+          "email": "Email",
+          "password": "Contraseña"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reautenticar Fermax Cloud",
+        "description": "Las credenciales han expirado. Por favor, introduce tu contraseña nuevamente.",
+        "data": {
+          "password": "Contraseña"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Credenciales inválidas",
+      "cannot_connect": "No se puede conectar al servidor",
+      "unknown": "Error desconocido",
+      "already_configured": "Esta cuenta ya está configurada"
+    },
+    "abort": {
+      "already_configured": "Esta cuenta ya está configurada",
+      "reauth_successful": "Reautenticación exitosa"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opciones de Fermax Cloud",
+        "data": {
+          "update_interval": "Intervalo de actualización (segundos)"
+        }
+      }
+    }
+  }
+}

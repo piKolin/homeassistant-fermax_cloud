@@ -1,0 +1,5 @@
+# Services for Fermax Cloud integration
+# Currently no custom services defined
+# Future services could include:
+# - force_refresh: Force an immediate data refresh
+# - open_specific_door: Open a door by device_id and door_key
